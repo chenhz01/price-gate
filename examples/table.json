@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "currency": "USD",
+  "unit": "per_1m_tokens",
+  "models": [
+    {
+      "model": "example-small",
+      "direction": "input",
+      "price_per_unit": 0.25,
+      "effective_from": "2026-01-01",
+      "source": "illustrative"
+    },
+    {
+      "model": "example-small",
+      "direction": "output",
+      "price_per_unit": 1.25,
+      "effective_from": "2026-01-01",
+      "source": "illustrative"
+    },
+    {
+      "model": "example-large",
+      "direction": "input",
+      "price_per_unit": 3.0,
+      "effective_from": "2026-01-01",
+      "source": "illustrative"
+    },
+    {
+      "model": "example-large",
+      "direction": "output",
+      "price_per_unit": 0.015,
+      "effective_from": "2026-01-01",
+      "source": "illustrative"
+    },
+    {
+      "model": "example-mini",
+      "direction": "input",
+      "price_per_unit": 0.15,
+      "source": "illustrative"
+    }
+  ]
+}
