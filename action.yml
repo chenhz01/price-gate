@@ -1,5 +1,5 @@
 name: price-gate
-description: Your cost model is only as good as the price table under it.
+description: LLM token price table validator: catch stale or wrong model pricing before your cost model lies.
 branding:
   icon: shield
   color: blue
