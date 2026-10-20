@@ -48,7 +48,7 @@ Being explicit here is cheaper than a wrong expectation later.
 
 ## Exit codes
 
-`0` = clean, `1` = findings. Gate your pipeline on `$?`.
+`0` = the table is valid. `1` = schema or semantic errors. `2` = bad input.
 
 ## Install
 
